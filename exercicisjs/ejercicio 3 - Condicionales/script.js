@@ -57,7 +57,7 @@ if(isNaN(num1 && num2)){
         alert("El numero mayor es el: " + num2);
     }
 }
-*/
+
 
 // Ejercicio Saludos y Horas
 
@@ -82,3 +82,25 @@ if (isNaN(hora)){
         alert('Buenas noches!');
     }
 }
+
+// Switch
+
+var edad = parseInt(prompt('Que edad tienes?'));
+
+//Para que switch funcione, necesita un true en la expresion a evaluar. Cuando lo tiene, es en cuando entra en los case y sus condiciones.
+
+switch(true){
+    case (edad>10&&edad<20):
+        alert('Tienes una franja entre 10 y 20 años');
+        break;
+    case 20:
+        alert('Tienes mas de 20 años');
+        break;
+    case (isNaN(edad)):
+        alert('Escribe en numeros!');
+    default:
+        franja = 'Sin franja';
+        break;
+}
+*/
+
