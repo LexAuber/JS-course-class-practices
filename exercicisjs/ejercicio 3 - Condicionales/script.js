@@ -3,11 +3,11 @@
 
 // Ejemplo 1
 
-/* Si, num1 y/o num 2 No son Not a Number, es decir, son letras, da un true (if), si no, un false(else). 
+//Si, num1 y/o num 2 No son Not a Number, es decir, son letras, da un true (if), si no, un false(else). 
 
-Aritmetica:
+//Aritmetica:
 
-Variab1e num1 pregunta una string y la convierte a numero. Variable num2 pregunta una string y la convierte a numero.
+//Variab1e num1 pregunta una string y la convierte a numero. Variable num2 pregunta una string y la convierte a numero.
 
 // Si num1 y num2 No son Not a Number (no son letras) es un true.
     // Si num1 mayor que num2
@@ -28,15 +28,15 @@ if(num1 && num2 !== isNaN('')){
 } else {
     alert("Escribe numeros!");
 }
-*/
+
 
 // Ejemplo 2
 
-/* Si no son un numero num1 y num2, da true y por lo tanto da la alerta. Si da un false, lanza la operacion. 
+// Si no son un numero num1 y num2, da true y por lo tanto da la alerta. Si da un false, lanza la operacion. 
 
-Aritmetica:
+// Aritmetica:
 
-Variab1e num1 pregunta una string y la convierte a numero. Variable num2 pregunta una string y la convierte a numero.
+// Variab1e num1 pregunta una string y la convierte a numero. Variable num2 pregunta una string y la convierte a numero.
 
 // Si num1 y num2 no son numeros
     // da una alerta
@@ -46,7 +46,7 @@ Variab1e num1 pregunta una string y la convierte a numero. Variable num2 pregunt
     // si no
         // da alerta el mayor es num2
 
-Codigo: 
+// Codigo: 
 
 if(isNaN(num1 && num2)){
     alert("Escribe numeros!");
@@ -102,5 +102,5 @@ switch(true){
         franja = 'Sin franja';
         break;
 }
-*/
+
 
