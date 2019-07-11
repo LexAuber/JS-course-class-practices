@@ -1,13 +1,13 @@
-/*
+
 // Matrices
 
 // Array + Lenght + Push (Cadena, Longitud y Añadir)
 
 var alumnes = ["Xavi", "Debi", "Laura", "Marc"];
 
-//alert(alumnes[2]);
+alert(alumnes[2]);
 
-//alert("A la aula hi han " + alumnes.length + " alumnes");
+alert("A la aula hi han " + alumnes.length + " alumnes");
 
 // Push (añade contenido a la string)
 
@@ -91,7 +91,7 @@ var nuevaAula = aulaTotal.slice(1);
 
 alert("En la aula estan: " + aulaTotal);
 alert("y ahora: " + nuevaAula)
-*/
+
 
 // Ejercicio niños:
 
