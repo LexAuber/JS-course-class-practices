@@ -1,7 +1,8 @@
-/*
+
 // Funciones:
 
 // Estructura de una funcion, y como llamarla para que funcione:
+
 function saludar(){
     alert('Buenos dias!');
 }
@@ -17,11 +18,9 @@ function saludar(nom){
 
 var nomUsuario = prompt('Cual es tu nombre?');
 saludar(nomUsuario);
-*/
 
 // Ejercicio de funciones: 
 
-/* 
 Declaramos la funcion numeros con 2 parametros, primero y segundo. Hacemos la condicion, si primero es mayor que segundo, primer alert, si no, segundo alert. Finalizamos la funcion, hacemos dos prompt para declarar los valores y la funcion las asignara a los parametros de la funcion y la llamamos al final.
 
 
@@ -37,7 +36,6 @@ valor1 = parseInt(prompt('Dime un numero'));
 valor2 = parseInt(prompt('Dime otro numero'));
 
 comparacion(valor1,valor2);
-*/
 
 // Funcion con return:
 
@@ -52,4 +50,6 @@ var num2 = producte(6,8);
 
 alert('el valor de la primera multiplicacio es ' + num1 + ' el de la segona es ' + num2);
 
-//preguntar si es pot fer amb mes de un return, i si es pot posar o seleccionar mes de un parametre o dos
+//Una funcion, puede devolver mas de un return y hacer mas operaciones.
+
+
